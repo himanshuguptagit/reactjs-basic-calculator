@@ -1,0 +1,45 @@
+
+/* Calculator css */
+.calculator{
+
+  /* height: 700px; */
+  width: 200px;
+
+}
+
+.screen{
+  width: 100%;
+  background-color: #272727;
+  color: white;
+  text-align: right;
+  min-height: 1.2em;
+}
+
+.result{
+  font-size: 2em;
+  min-height: 2;
+  width: 100%;
+  background-color: #272727;
+  color: white;
+  text-align: right;
+}
+
+.row{
+  display: flex;
+}
+
+.keyButton{
+  background-color: #efefef;
+  color: #272727;
+  border: 1px solid #d7d7d7;
+  margin: 0;
+  width: 50px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.orange {
+  background-color: orange !important;
+  color: white !important;
+}
